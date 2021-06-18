@@ -129,7 +129,7 @@ def write_to_file(filepath, dc, ac, blocks_count,tables):
 
 
 def main():
-    image = Image.open('D:\File Kuliah\Electrical Engineering\Pemrosesan\Proyek\download2.jpg')
+    image = Image.open('download2.jpg')
     ycbcr = image.convert('YCbCr')
 
     npmat = np.array(ycbcr, dtype=np.uint8)
